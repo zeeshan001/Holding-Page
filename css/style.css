@@ -1,0 +1,324 @@
+/* html5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+/* Default Font Styles
+______________________*/
+body, input, select, textarea{
+	font-family: 'Abel', sans-serif;
+	font-size:12px;
+	color:#000;
+	line-height:130%;
+}
+/* Headings
+______________________*/
+h1{}
+h2{
+	font-size:29px;
+	margin-bottom:15px;
+	padding-bottom:15px;
+	margin-top:0;
+	color:#042a55;
+	border-bottom:1px solid #b4c5d4;
+}
+h3{
+	font-size:29px;
+	margin-top:0;
+	margin-bottom:25px;
+	color:#006fb8;
+}
+h4{}
+/* Links
+______________________*/
+a{ 
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+a:focus,
+a:active{
+	outline:none;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+}
+/* p, blockquote, address
+______________________*/
+p{
+	font-size:26px;
+	line-height:30px;
+	color:#042a55;
+	font-weight:bold;
+}
+/* Layout 
+______________________*/
+#container-fluid{}
+#container-fix{}
+.container{}
+/* Header
+______________________*/
+#header-wrap{}
+#header{}
+.technology-logo img{
+	margin-left:-87px;
+}
+.site-logo{
+	padding-top:45px;
+	text-align:right;
+}
+/* Slider
+______________________*/
+#slider-wrap{
+	background:#000;
+	position:relative;
+	text-align:center;
+}
+.flex-control-nav > li{
+	display:inline-block;
+	margin-right:22px;
+}
+.flex-control-nav > li a{
+	display:inline-block;
+	background:url(../images/slider-btn.png) no-repeat;
+	width:10px;
+	height:10px;
+	font-size:0;
+	cursor:pointer;
+}
+.flex-control-nav > li a:hover,
+.flex-control-nav > li a.flex-active{
+	background:url(../images/active-btn.png) no-repeat;
+}
+.flex-control-nav{
+	position:absolute;
+	left:0;
+	bottom:0;
+	margin-left:0;
+	width:100%;
+	text-align:center;
+}
+.slides{
+	margin:0;
+}
+#ie7 .flex-control-nav > li{
+	float:left;
+	width:auto;
+}
+#ie7 .flex-control-nav{
+	position:absolute;
+	left:45%;
+	bottom:7px;
+}
+/*  Main Area
+-------------------------------------- */
+/* Slider
+______________________*/
+.video-wrap{
+	background:#eceded;
+	padding:43px 0 48px 0;
+}
+.video-section p,
+.tab-content p{
+	padding-bottom:10px;
+}
+.video-section .play,
+.tab-content .continue{
+	font-size:21px;
+	text-decoration:none;
+	background:url(../images/links-bg.png) no-repeat left 75%;
+	padding-left:17px;
+}
+/* Who We Are
+______________________*/
+.whoweare-wrap,
+.howwework-wrap{
+	min-height:400px;
+	padding:47px 0 66px 0;
+}
+.weare-section .nav{
+	margin-left:-55px;
+}
+.weare-section .nav-tabs{
+	float:left;
+	width:235px;
+	margin-right:70px;
+	padding-left:25px;
+}
+.weare-section h2{
+	margin-left:31px;
+}
+.nav-tabs.nav-stacked > li{
+	padding-left:31px;
+}
+.nav-tabs.nav-stacked > li.last a{
+	border-bottom:none;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.nav-tabs.nav-stacked > li > a{
+	border:0;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #b4c5d4;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	font-size:26px;
+	color:#042a55;
+}
+.nav-tabs.nav-stacked > li > a:hover{
+	background:none;
+	color:#0072c5;
+}
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus{
+	outline:none;
+	color:#0072c5;
+	background-color:transparent;
+}
+.nav-tabs.nav-stacked li.active{
+	background:url(../images/tabs-links-bg.png) no-repeat left 7px;
+}
+.tab-content p{
+	font-weight:normal;
+}
+.tab-content{
+	float:right;
+	width:660px;
+	overflow:inherit;
+}
+.tab-content .continue{
+	background:url(../images/links-bg.png) no-repeat left 62%;
+}
+.whoweare-wrap.tab-1{
+	background:url(../images/white-tab-1-bg.png) no-repeat center bottom;
+}
+.whoweare-wrap.tab-2{
+	background:url(../images/white-tab-2-bg.png) no-repeat center bottom;
+}
+.whoweare-wrap.tab-3{
+	background:url(../images/white-tab-3-bg.png) no-repeat center bottom;
+}
+.whoweare-wrap.tab-4{
+	background:url(../images/white-tab-4-bg.png) no-repeat center bottom;
+}
+/* How We Work
+______________________*/
+.howwework-wrap h2{
+	color:#cbcbcb;
+	border-bottom:1px solid #375373;
+}
+.howwework-wrap .nav-tabs.nav-stacked > li > a{
+	color:#cbcbcb;
+}
+.howwework-wrap .nav-tabs.nav-stacked > li > a:hover{
+	color:#fff;
+}
+.howwework-wrap h3{
+	color:#00abec;
+}
+.howwework-wrap p{
+	color:#d6d6d6;
+}
+.howwework-wrap .nav-tabs.nav-stacked > li > a{
+	border-bottom:1px solid #375373;
+}
+.howwework-wrap .nav-tabs.nav-stacked > li.last a{
+	border-bottom:none;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.howwework-wrap.tab-1{
+	background:#1f2e40 url(../images/blue-tab-1-bg.png) no-repeat center bottom;
+}
+.howwework-wrap.tab-2{
+	background:#1f2e40 url(../images/blue-tab-2-bg.png) no-repeat center bottom;
+}
+.howwework-wrap.tab-3{
+	background:#1f2e40 url(../images/blue-tab-3-bg.png) no-repeat center bottom;
+}
+.howwework-wrap.tab-4{
+	background:#1f2e40 url(../images/blue-tab-4-bg.png) no-repeat center bottom;
+}
+#main-wrap{}
+#main{}
+/*  Footer 
+-------------------------------------- */
+#footer-wrap{
+	padding:115px 0 70px 0;
+}
+.contact-section{
+	padding-bottom:70px;
+}
+.contact-section span,
+.contact-section span a{
+	display:block;
+	font-size:21px;
+	line-height:1;
+	color:#7b89a4;
+	text-align:center;
+}
+.contact-section span.img{
+	display:block;
+	margin-bottom:18px;
+}
+.contact-banner{
+	margin-top:-137px;
+}
+.contact-banner p{
+	background:url(../images/contactus-bg.png) no-repeat;
+	padding:64px 15px 115px 25px;
+	font-size:29px;
+	line-height:33px;
+	color:#fff;
+}
+.patners-logo li{
+	float:left;
+	list-style:none;
+	margin-right:70px;
+}
+.patners-logo li.last{
+	margin-right:0;
+}
+.copy-right{
+	padding-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#b1b1b1;
+	text-align:center;
+}
+
+.fl{ float:left}
+.fr{ float:right}
+.cl{ clear:both; font-size:0; height:0; }
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* Alignments */
+.center { text-align:center }
+.right { text-align:right }
+.top {vertical-align:top }
+.middle { vertical-align:middle }
+
+@media (max-width: 979px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 320px) {
+    
+}
